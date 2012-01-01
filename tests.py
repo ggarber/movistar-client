@@ -8,7 +8,7 @@ class MovistarClientTest(unittest.TestCase):
 
     def test_status(self):
         client = MovistarClient()
-        client.login("h71102031S", "7564haausi")
+        client.login("hNIF", "DDDDaaaaa")
         status = client.status()
     
         self.assertTrue(status['calls'] > 0)
